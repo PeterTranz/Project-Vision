@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1135065746058580}
+  m_IsPrefabParent: 1
+--- !u!1 &1135065746058580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4474348714844204}
+  - component: {fileID: 114160726062240604}
+  m_Layer: 0
+  m_Name: CubeSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4474348714844204
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135065746058580}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.508117, y: 0.00999999, z: -8.9408455}
+  m_LocalScale: {x: 1.5, y: 10, z: 1.5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114160726062240604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135065746058580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f4d8a6ba8ea5d54ca068f9dac9224ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SentryCube: {fileID: 1921322368338656, guid: 710d25f311619a94a92d5a646e22a595, type: 2}
+  PowerCube: {fileID: 1382171044884178, guid: 220375a252ad31246881aae487552329, type: 2}
+  SmashCube: {fileID: 1654227235269164, guid: dc0f9532a4fc447408761f68cc283557, type: 2}
+  EasterEgg: {fileID: 1548253166175418, guid: 39f82e60fd7ba5a488526651256b8711, type: 2}
+  Spawn_SentryCube: 0
+  Spawn_PowerCube: 0
+  Spawn_SmashCube: 0
